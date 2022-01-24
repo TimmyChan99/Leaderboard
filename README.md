@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://timmychan99.github.io/Leaderboard/)
+[Live Demo Link](https://timmychan99.github.io/Leaderboard/dist/)
 
 
 ## Getting Started
