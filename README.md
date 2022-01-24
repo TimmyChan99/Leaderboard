@@ -1,22 +1,22 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leadboard
 
-> One paragraph statement about the project.
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved using the external Leaderboard API service.
 
-![screenshot](./app_screenshot.png)
+![leadboard1](https://user-images.githubusercontent.com/92228303/150802985-4649b827-412c-4e18-ab3d-727d396f15ea.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
 - HTML
 - CSS
 - JavaScript
+- Webpack
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://timmychan99.github.io/Leaderboard/)
 
 
 ## Getting Started
@@ -24,8 +24,10 @@ Additional description about the project and its features.
 ### Setup
 To get a local copy up and running follow these simple example steps.
 
-`git clone https://github.com/TimmyChan99/`
-
+- Run `git clone https://github.com/TimmyChan99/Leaderboard.git`
+- Go to the folder `cd Leaderboard`
+- Install packages: run `npm install`
+- To run application using webpack-dev-server: run `npm start`
 
 ## Authors
 
@@ -34,12 +36,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@TimmyChan99](https://github.com/TimmyChan99)
 - Twitter: [@elemenoun](https://twitter.com/elemenoun)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/fatima-ezzahra-elemenoun-020841225/)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
