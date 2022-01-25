@@ -25,8 +25,8 @@
         <section class="add_score d-flex-column">
             <h2 class="section_title">Add your score</h2>
             <form id="add_score_info" class="d-flex-column">
-                <input type="text" name="name" placeholder="Your name" class="user_name" required>
-                <input type="text" name="score" placeholder="Your score" class="user_score" required>
+                <input type="text" name="name" placeholder="Your name" pattern="[a-z,A-Z]{2,30}" title="Name should contain letters" class="user_name" required>
+                <input type="number" name="score" placeholder="Your score" class="user_score" required>
                 <button class="submit_btn">Submit</button>
             </form>
         </section>
