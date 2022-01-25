@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Neue', cursive;
+}
+
+/* header */
+
+.headline {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 50px 20px 20px 20px;
+}
+
+/* Main section */
+
+.d-flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.content {
+  justify-content: center;
+  margin: 20px 70px;
+}
+
+section {
+  width: 50vw;
+  height: 60vh;
+  padding: 30px 0;
+}
+
+/* recent scores setion */
+
+li {
+  list-style: none;
+  height: 2em;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+li:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+.setion_headline {
+  width: 100%;
+  justify-content: space-around;
+}
+
+.section_title {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.scores_list {
+  border: 2px black solid;
+  width: 100%;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #fff;
+  border: 2px black solid;
+  box-shadow: 3px 2px 1px black;
+  padding: 6px 12px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* Add your score section */
+
+#add_score_info {
+  margin-top: 20px;
+  width: 70%;
+}
+
+input {
+  width: 100%;
+  border: 2px black solid;
+  margin: 10px;
+  height: 30px;
+}
+
+.submit_btn {
+  align-self: end;
+}
+
+input::placeholder {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+@media screen and (max-width: 710px) {
+  /* header */
+
+  .headline {
+    font-size: 40px;
+  }
+
+  .section_title {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  button {
+    padding: 3px 4px;
+    font-size: 11px;
+  }
+
+  li {
+    font-size: 1em;
+  }
+}
