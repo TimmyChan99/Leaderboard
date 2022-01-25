@@ -16,23 +16,17 @@
         <section class="recent_scores d-flex-column">
             <div class="setion_headline d-flex-row">
                 <h2 class="section_title">Recent scores</h2>
-                <button>Refresh</button>
+                <button class="Refresh_btn">Refresh</button>
             </div>
             <ul class="scores_list">
-                <li class="score_and_name">Name:100</li>
-                <li class="score_and_name">Name:20</li>
-                <li class="score_and_name">Name:50</li>
-                <li class="score_and_name">Name:78</li>
-                <li class="score_and_name">Name:125</li>
-                <li class="score_and_name">Name:77</li>
-                <li class="score_and_name">Name:42</li>
+        
             </ul>
         </section>
         <section class="add_score d-flex-column">
             <h2 class="section_title">Add your score</h2>
             <form id="add_score_info" class="d-flex-column">
-                <input type="text" name="name" placeholder="Your name" class="user_name" required>
-                <input type="text" name="score" placeholder="Your score" class="user_score" required>
+                <input type="text" name="name" placeholder="Your name" pattern="[a-z,A-Z]{2,30}" title="Name should contain letters" class="user_name" required>
+                <input type="number" name="score" placeholder="Your score" class="user_score" required>
                 <button class="submit_btn">Submit</button>
             </form>
         </section>
