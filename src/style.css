@@ -61,6 +61,7 @@ li:nth-child(even) {
 .section_title {
   font-weight: 700;
   font-size: 40px;
+  padding-left: 10px;
 }
 
 .scores_list {
