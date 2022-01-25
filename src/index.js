@@ -36,8 +36,7 @@ const newScoreAndUser = async () => {
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   newScoreAndUser();
-  userName.value = '';
-  score.value = '';
+  form.reset();
 });
 
 // Display the Data
